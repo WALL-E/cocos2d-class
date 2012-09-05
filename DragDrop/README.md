@@ -10,4 +10,4 @@ DragDrop
 
 4、如何通过识别手势来实现一些更cool的效果
 
-详细内容参见《DragDrop学习笔记 .doc》
+详细内容参见本目录下《DragDrop学习笔记 .doc》
