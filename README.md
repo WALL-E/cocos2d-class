@@ -1,2 +1,2 @@
-cocos2d-class
+Cocos2d-Class
 =============
