@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE83DB2015FB33710024D1E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83DB1F15FB33710024D1E3 /* UIKit.framework */; };
+		CE83DB2215FB33710024D1E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83DB2115FB33710024D1E3 /* Foundation.framework */; };
+		CE83DB2415FB33710024D1E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83DB2315FB33710024D1E3 /* CoreGraphics.framework */; };
+		CE83DB2A15FB33710024D1E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE83DB2815FB33710024D1E3 /* InfoPlist.strings */; };
+		CE83DB2C15FB33710024D1E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83DB2B15FB33710024D1E3 /* main.m */; };
+		CE83DB3015FB33710024D1E3 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83DB2F15FB33710024D1E3 /* BIDAppDelegate.m */; };
+		CE83DB3315FB33710024D1E3 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83DB3215FB33710024D1E3 /* BIDViewController.m */; };
+		CE83DB3615FB33710024D1E3 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83DB3415FB33710024D1E3 /* BIDViewController.xib */; };
+		CE83DB3F15FB36610024D1E3 /* apple-touch-icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83DB3E15FB36610024D1E3 /* apple-touch-icon-72x72.png */; };
+		CE83DB4315FB36D40024D1E3 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83DB4215FB36D40024D1E3 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE83DB1B15FB33710024D1E3 /* drawHtml5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawHtml5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE83DB1F15FB33710024D1E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE83DB2115FB33710024D1E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE83DB2315FB33710024D1E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE83DB2715FB33710024D1E3 /* drawHtml5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawHtml5-Info.plist"; sourceTree = "<group>"; };
+		CE83DB2915FB33710024D1E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE83DB2B15FB33710024D1E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE83DB2D15FB33710024D1E3 /* drawHtml5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "drawHtml5-Prefix.pch"; sourceTree = "<group>"; };
+		CE83DB2E15FB33710024D1E3 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		CE83DB2F15FB33710024D1E3 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		CE83DB3115FB33710024D1E3 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		CE83DB3215FB33710024D1E3 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		CE83DB3515FB33710024D1E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		CE83DB3E15FB36610024D1E3 /* apple-touch-icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-72x72.png"; sourceTree = "<group>"; };
+		CE83DB4215FB36D40024D1E3 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE83DB1815FB33710024D1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83DB2015FB33710024D1E3 /* UIKit.framework in Frameworks */,
+				CE83DB2215FB33710024D1E3 /* Foundation.framework in Frameworks */,
+				CE83DB2415FB33710024D1E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE83DB1015FB33700024D1E3 = {
+			isa = PBXGroup;
+			children = (
+				CE83DB4215FB36D40024D1E3 /* Default-Landscape~ipad.png */,
+				CE83DB3E15FB36610024D1E3 /* apple-touch-icon-72x72.png */,
+				CE83DB2515FB33710024D1E3 /* drawHtml5 */,
+				CE83DB1E15FB33710024D1E3 /* Frameworks */,
+				CE83DB1C15FB33710024D1E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE83DB1C15FB33710024D1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE83DB1B15FB33710024D1E3 /* drawHtml5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE83DB1E15FB33710024D1E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE83DB1F15FB33710024D1E3 /* UIKit.framework */,
+				CE83DB2115FB33710024D1E3 /* Foundation.framework */,
+				CE83DB2315FB33710024D1E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE83DB2515FB33710024D1E3 /* drawHtml5 */ = {
+			isa = PBXGroup;
+			children = (
+				CE83DB2E15FB33710024D1E3 /* BIDAppDelegate.h */,
+				CE83DB2F15FB33710024D1E3 /* BIDAppDelegate.m */,
+				CE83DB3115FB33710024D1E3 /* BIDViewController.h */,
+				CE83DB3215FB33710024D1E3 /* BIDViewController.m */,
+				CE83DB3415FB33710024D1E3 /* BIDViewController.xib */,
+				CE83DB2615FB33710024D1E3 /* Supporting Files */,
+			);
+			path = drawHtml5;
+			sourceTree = "<group>";
+		};
+		CE83DB2615FB33710024D1E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE83DB2715FB33710024D1E3 /* drawHtml5-Info.plist */,
+				CE83DB2815FB33710024D1E3 /* InfoPlist.strings */,
+				CE83DB2B15FB33710024D1E3 /* main.m */,
+				CE83DB2D15FB33710024D1E3 /* drawHtml5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE83DB1A15FB33710024D1E3 /* drawHtml5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE83DB3915FB33710024D1E3 /* Build configuration list for PBXNativeTarget "drawHtml5" */;
+			buildPhases = (
+				CE83DB1715FB33710024D1E3 /* Sources */,
+				CE83DB1815FB33710024D1E3 /* Frameworks */,
+				CE83DB1915FB33710024D1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drawHtml5;
+			productName = drawHtml5;
+			productReference = CE83DB1B15FB33710024D1E3 /* drawHtml5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE83DB1215FB33700024D1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = YinSui.ZZ;
+			};
+			buildConfigurationList = CE83DB1515FB33700024D1E3 /* Build configuration list for PBXProject "drawHtml5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE83DB1015FB33700024D1E3;
+			productRefGroup = CE83DB1C15FB33710024D1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE83DB1A15FB33710024D1E3 /* drawHtml5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE83DB1915FB33710024D1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83DB2A15FB33710024D1E3 /* InfoPlist.strings in Resources */,
+				CE83DB3615FB33710024D1E3 /* BIDViewController.xib in Resources */,
+				CE83DB3F15FB36610024D1E3 /* apple-touch-icon-72x72.png in Resources */,
+				CE83DB4315FB36D40024D1E3 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE83DB1715FB33710024D1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83DB2C15FB33710024D1E3 /* main.m in Sources */,
+				CE83DB3015FB33710024D1E3 /* BIDAppDelegate.m in Sources */,
+				CE83DB3315FB33710024D1E3 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE83DB2815FB33710024D1E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83DB2915FB33710024D1E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE83DB3415FB33710024D1E3 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83DB3515FB33710024D1E3 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE83DB3715FB33710024D1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CE83DB3815FB33710024D1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE83DB3A15FB33710024D1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "drawHtml5/drawHtml5-Prefix.pch";
+				INFOPLIST_FILE = "drawHtml5/drawHtml5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE83DB3B15FB33710024D1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "drawHtml5/drawHtml5-Prefix.pch";
+				INFOPLIST_FILE = "drawHtml5/drawHtml5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE83DB1515FB33700024D1E3 /* Build configuration list for PBXProject "drawHtml5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83DB3715FB33710024D1E3 /* Debug */,
+				CE83DB3815FB33710024D1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE83DB3915FB33710024D1E3 /* Build configuration list for PBXNativeTarget "drawHtml5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83DB3A15FB33710024D1E3 /* Debug */,
+				CE83DB3B15FB33710024D1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE83DB1215FB33700024D1E3 /* Project object */;
+}
