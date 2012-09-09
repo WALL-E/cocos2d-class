@@ -1,5 +1,12 @@
-Cocos2d-Class
+chainRXN
 =============
-1:DragDrop
+学习内容
 
-2:UIWebView
+UIWebview包装本地html5游戏
+
+
+1：目录结构
+
+2：文件包含
+
+3：js文需要件特殊对待
