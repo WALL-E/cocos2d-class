@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE2E46615FC5469001F3CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2E46515FC5469001F3CC4 /* UIKit.framework */; };
+		CEE2E46815FC5469001F3CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2E46715FC5469001F3CC4 /* Foundation.framework */; };
+		CEE2E46A15FC5469001F3CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2E46915FC5469001F3CC4 /* CoreGraphics.framework */; };
+		CEE2E47015FC5469001F3CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E46E15FC5469001F3CC4 /* InfoPlist.strings */; };
+		CEE2E47215FC5469001F3CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2E47115FC5469001F3CC4 /* main.m */; };
+		CEE2E47615FC5469001F3CC4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2E47515FC5469001F3CC4 /* BIDAppDelegate.m */; };
+		CEE2E47915FC5469001F3CC4 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2E47815FC5469001F3CC4 /* BIDViewController.m */; };
+		CEE2E47C15FC5469001F3CC4 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E47A15FC5469001F3CC4 /* BIDViewController.xib */; };
+		CEE2E49215FC6F86001F3CC4 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48815FC6F86001F3CC4 /* favicon.ico */; };
+		CEE2E49315FC6F86001F3CC4 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48915FC6F86001F3CC4 /* game.png */; };
+		CEE2E49415FC6F86001F3CC4 /* html5.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48A15FC6F86001F3CC4 /* html5.png */; };
+		CEE2E49515FC6F86001F3CC4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48B15FC6F86001F3CC4 /* index.html */; };
+		CEE2E49715FC6F86001F3CC4 /* pointerball.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48D15FC6F86001F3CC4 /* pointerball.png */; };
+		CEE2E49815FC6F86001F3CC4 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48E15FC6F86001F3CC4 /* styles.css */; };
+		CEE2E4AE15FC9779001F3CC4 /* zz.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E4A515FC925D001F3CC4 /* zz.js */; };
+		CEE2E4AF15FC9779001F3CC4 /* ene4zze.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E49D15FC74F1001F3CC4 /* ene4zze.js */; };
+		CEE2E4B015FC9779001F3CC4 /* ga.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E49B15FC7468001F3CC4 /* ga.js */; };
+		CEE2E4B115FC9779001F3CC4 /* chainrxn-2.0.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48715FC6F86001F3CC4 /* chainrxn-2.0.js */; };
+		CEE2E4B215FC9779001F3CC4 /* mootools-core-1.4.5.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48C15FC6F86001F3CC4 /* mootools-core-1.4.5.js */; };
+		CEE2E4B315FC9779001F3CC4 /* touch.js in Resources */ = {isa = PBXBuildFile; fileRef = CEE2E48F15FC6F86001F3CC4 /* touch.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE2E46115FC5469001F3CC4 /* chainRXN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chainRXN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2E46515FC5469001F3CC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE2E46715FC5469001F3CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE2E46915FC5469001F3CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE2E46D15FC5469001F3CC4 /* chainRXN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chainRXN-Info.plist"; sourceTree = "<group>"; };
+		CEE2E46F15FC5469001F3CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE2E47115FC5469001F3CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE2E47315FC5469001F3CC4 /* chainRXN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chainRXN-Prefix.pch"; sourceTree = "<group>"; };
+		CEE2E47415FC5469001F3CC4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		CEE2E47515FC5469001F3CC4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		CEE2E47715FC5469001F3CC4 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		CEE2E47815FC5469001F3CC4 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		CEE2E47B15FC5469001F3CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		CEE2E48715FC6F86001F3CC4 /* chainrxn-2.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "chainrxn-2.0.js"; sourceTree = "<group>"; };
+		CEE2E48815FC6F86001F3CC4 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		CEE2E48915FC6F86001F3CC4 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		CEE2E48A15FC6F86001F3CC4 /* html5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html5.png; sourceTree = "<group>"; };
+		CEE2E48B15FC6F86001F3CC4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CEE2E48C15FC6F86001F3CC4 /* mootools-core-1.4.5.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-core-1.4.5.js"; sourceTree = "<group>"; };
+		CEE2E48D15FC6F86001F3CC4 /* pointerball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointerball.png; sourceTree = "<group>"; };
+		CEE2E48E15FC6F86001F3CC4 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		CEE2E48F15FC6F86001F3CC4 /* touch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = touch.js; sourceTree = "<group>"; };
+		CEE2E49B15FC7468001F3CC4 /* ga.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ga.js; sourceTree = "<group>"; };
+		CEE2E49D15FC74F1001F3CC4 /* ene4zze.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ene4zze.js; sourceTree = "<group>"; };
+		CEE2E4A515FC925D001F3CC4 /* zz.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zz.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE2E45E15FC5469001F3CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2E46615FC5469001F3CC4 /* UIKit.framework in Frameworks */,
+				CEE2E46815FC5469001F3CC4 /* Foundation.framework in Frameworks */,
+				CEE2E46A15FC5469001F3CC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE2E45615FC5469001F3CC4 = {
+			isa = PBXGroup;
+			children = (
+				CEE2E46B15FC5469001F3CC4 /* chainRXN */,
+				CEE2E46415FC5469001F3CC4 /* Frameworks */,
+				CEE2E46215FC5469001F3CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE2E46215FC5469001F3CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2E46115FC5469001F3CC4 /* chainRXN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE2E46415FC5469001F3CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2E46515FC5469001F3CC4 /* UIKit.framework */,
+				CEE2E46715FC5469001F3CC4 /* Foundation.framework */,
+				CEE2E46915FC5469001F3CC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE2E46B15FC5469001F3CC4 /* chainRXN */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2E47415FC5469001F3CC4 /* BIDAppDelegate.h */,
+				CEE2E47515FC5469001F3CC4 /* BIDAppDelegate.m */,
+				CEE2E47715FC5469001F3CC4 /* BIDViewController.h */,
+				CEE2E47815FC5469001F3CC4 /* BIDViewController.m */,
+				CEE2E47A15FC5469001F3CC4 /* BIDViewController.xib */,
+				CEE2E46C15FC5469001F3CC4 /* Supporting Files */,
+			);
+			path = chainRXN;
+			sourceTree = "<group>";
+		};
+		CEE2E46C15FC5469001F3CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2E48615FC6F86001F3CC4 /* resources */,
+				CEE2E46D15FC5469001F3CC4 /* chainRXN-Info.plist */,
+				CEE2E46E15FC5469001F3CC4 /* InfoPlist.strings */,
+				CEE2E47115FC5469001F3CC4 /* main.m */,
+				CEE2E47315FC5469001F3CC4 /* chainRXN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE2E48615FC6F86001F3CC4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2E4A515FC925D001F3CC4 /* zz.js */,
+				CEE2E49D15FC74F1001F3CC4 /* ene4zze.js */,
+				CEE2E49B15FC7468001F3CC4 /* ga.js */,
+				CEE2E48715FC6F86001F3CC4 /* chainrxn-2.0.js */,
+				CEE2E48815FC6F86001F3CC4 /* favicon.ico */,
+				CEE2E48915FC6F86001F3CC4 /* game.png */,
+				CEE2E48A15FC6F86001F3CC4 /* html5.png */,
+				CEE2E48B15FC6F86001F3CC4 /* index.html */,
+				CEE2E48C15FC6F86001F3CC4 /* mootools-core-1.4.5.js */,
+				CEE2E48D15FC6F86001F3CC4 /* pointerball.png */,
+				CEE2E48E15FC6F86001F3CC4 /* styles.css */,
+				CEE2E48F15FC6F86001F3CC4 /* touch.js */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE2E46015FC5469001F3CC4 /* chainRXN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2E47F15FC5469001F3CC4 /* Build configuration list for PBXNativeTarget "chainRXN" */;
+			buildPhases = (
+				CEE2E45D15FC5469001F3CC4 /* Sources */,
+				CEE2E45E15FC5469001F3CC4 /* Frameworks */,
+				CEE2E45F15FC5469001F3CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chainRXN;
+			productName = chainRXN;
+			productReference = CEE2E46115FC5469001F3CC4 /* chainRXN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE2E45815FC5469001F3CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = YinSui.ZZ;
+			};
+			buildConfigurationList = CEE2E45B15FC5469001F3CC4 /* Build configuration list for PBXProject "chainRXN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE2E45615FC5469001F3CC4;
+			productRefGroup = CEE2E46215FC5469001F3CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE2E46015FC5469001F3CC4 /* chainRXN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE2E45F15FC5469001F3CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2E4AE15FC9779001F3CC4 /* zz.js in Resources */,
+				CEE2E4AF15FC9779001F3CC4 /* ene4zze.js in Resources */,
+				CEE2E4B015FC9779001F3CC4 /* ga.js in Resources */,
+				CEE2E4B115FC9779001F3CC4 /* chainrxn-2.0.js in Resources */,
+				CEE2E4B215FC9779001F3CC4 /* mootools-core-1.4.5.js in Resources */,
+				CEE2E4B315FC9779001F3CC4 /* touch.js in Resources */,
+				CEE2E47015FC5469001F3CC4 /* InfoPlist.strings in Resources */,
+				CEE2E47C15FC5469001F3CC4 /* BIDViewController.xib in Resources */,
+				CEE2E49215FC6F86001F3CC4 /* favicon.ico in Resources */,
+				CEE2E49315FC6F86001F3CC4 /* game.png in Resources */,
+				CEE2E49415FC6F86001F3CC4 /* html5.png in Resources */,
+				CEE2E49515FC6F86001F3CC4 /* index.html in Resources */,
+				CEE2E49715FC6F86001F3CC4 /* pointerball.png in Resources */,
+				CEE2E49815FC6F86001F3CC4 /* styles.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE2E45D15FC5469001F3CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2E47215FC5469001F3CC4 /* main.m in Sources */,
+				CEE2E47615FC5469001F3CC4 /* BIDAppDelegate.m in Sources */,
+				CEE2E47915FC5469001F3CC4 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE2E46E15FC5469001F3CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2E46F15FC5469001F3CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE2E47A15FC5469001F3CC4 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2E47B15FC5469001F3CC4 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE2E47D15FC5469001F3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CEE2E47E15FC5469001F3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE2E48015FC5469001F3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chainRXN/chainRXN-Prefix.pch";
+				INFOPLIST_FILE = "chainRXN/chainRXN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE2E48115FC5469001F3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chainRXN/chainRXN-Prefix.pch";
+				INFOPLIST_FILE = "chainRXN/chainRXN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE2E45B15FC5469001F3CC4 /* Build configuration list for PBXProject "chainRXN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2E47D15FC5469001F3CC4 /* Debug */,
+				CEE2E47E15FC5469001F3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2E47F15FC5469001F3CC4 /* Build configuration list for PBXNativeTarget "chainRXN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2E48015FC5469001F3CC4 /* Debug */,
+				CEE2E48115FC5469001F3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE2E45815FC5469001F3CC4 /* Project object */;
+}
